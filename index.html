@@ -2,46 +2,122 @@
 
 <head>
     <title>Home</title>
+    <link rel="icon" href="img/irfan.png" type="image/gif" sizes="16x16">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
 </head>
 
 <body>
 
-    <div class="jumbotron text-center">
-        <h1>Sarfaroj Gayen</h1>
-        <p><b>E-mail:</b> sarfaroj95@gmail.com</p>
-        <p><b>Mobile:</b> +91 814 568 0602</p>
+    <div class="mainDiv d-flex align-items-center justify-content-center">
+        <div class="text-center">
+            <h1 class="myname">Sarfaroj Gayen</h1>
+            <p class="pt-2"><b>E-mail:</b> sarfaroj95@gmail.com</p>
+            <p><b>Mobile:</b> +91 814 568 0602</p>
+        </div>
+
 
     </div>
 
     <div class="container">
-        <h2 class="text-center pb-2">Developers</h2>
+        <h2 class="SubTitle">Developers</h2>
         <div class="row">
-            <div class="col-sm-4 mt-3">
+            <div class="col-sm-4 DevSec">
                 <div class="p-4 border">
+                    <div class="Dev">
+                        <img src="img/irfan.png" class="img-responsive " />
+                    </div>
                     <h3>Sarfaroj Gayen</h3>
                     <h5>React & Angular Developer</h5>
                     <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p> -->
                     <!-- <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p> -->
                 </div>
             </div>
-            <div class="col-sm-4 mt-3">
+            <div class="col-sm-4 DevSec">
                 <div class="p-4 border">
+                    <div class="Dev">
+                        <img src="img/irfan.png" class="img-responsive " />
+                    </div>
                     <h3>Suraj Mandal</h3>
-                    <h5>Dot Net Developer</h5>
+                    <h5>Angular & Dot Net Developer</h5>
                     <!-- <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p> -->
                 </div>
             </div>
-            <div class="col-sm-4 mt-3">
+            <div class="col-sm-4 DevSec">
                 <div class="p-4 border">
+                    <div class="Dev">
+                        <img src="img/irfan.png" class="img-responsive " />
+                    </div>
                     <h3>Irfan Kha</h3>
-                    <h5>React & Php Developer</h5>
+                    <h5>Angular, React & Php Developer</h5>
                     <!-- <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p> -->
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="bg-light contactDiv">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div>
+                        <p class="conTitle">Contact</p>
+                        <div class="mail">
+                            <img src="img/mail.gif" />
+                        </div>
+                        <p class="conDetails">Leave Us A Message</p>
+                        <p>For more info or inquiry about our products project, and pricing please feel free to get in
+                            touch
+                            with us.</p>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <form>
+                        <div class="form-group">
+
+                            <input type="text" class="form-control NoRounted" placeholder="Your Name*" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control NoRounted" placeholder="Your Email*" required>
+                        </div>
+                        <div class="form-group">
+
+                            <input type="text" class="form-control NoRounted" placeholder="Subject*" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control NoRounted" placeholder="Type your message here*" rows="3"
+                                required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-default sentBtn NoRounted">Sent Message</button>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <p class="textW pt-3">We are software developer * From Bangalore</p>
+
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <!-- <p class="textW pt-3">We are software developer * From Bangalore</p> -->
+
                 </div>
             </div>
         </div>

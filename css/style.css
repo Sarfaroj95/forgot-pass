@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Roboto&display=swap');
+body{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sriracha', cursive;
+   
+}
+.mainDiv{
+    /* background-color: #065535; */
+    background-color: #002D5D;
+    color: #fff;
+    height: 50vh;
+}
+.SubTitle{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.border{
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.24);
+    /* box-shadow: 0 2px 4px 0 rgba(14,30,37,.12); */
+    
+}
+.textW{
+    color: #fff;
+}
+
+.Dev{
+    float: right;
+}
+
+.Dev > img{
+    width: 80px;
+}
+
+.contactDiv{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.NoRounted{
+    border-radius: 0px;
+}
+.sentBtn{
+    background-color: #002D5D;
+    color: #fff;
+    padding: 10px;
+}
+.sentBtn:hover{
+    color: #fff;
+}
+
+.conTitle{
+    color: #c7c5c5;
+    font-size: 40px;
+    font-weight: 700;
+}
+.conDetails{
+    color: #222042;
+    font-size: 40px;
+    font-weight: 700;
+}
+.mail > img{
+    width: 60px;
+}
+
+.footer{
+    /* background-color: #222042; */
+    background-color: #000;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+/* textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: rgba(39, 26, 97, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+  outline: 0 none;
+} */
+
+.form-control:focus {
+        border-color: #002D5D;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(116, 117, 116, 0.6);
+  outline: 0 none;
+    }
+
+@media only screen and (max-width: 600px) {
+  .contactDiv{
+      height: 100vh;
+  }
+  .conTitle, .conDetails{
+      font-size: 26px;
+  }
+  .SubTitle{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.DevSec{
+    margin-top: 20px;
+}
+}
